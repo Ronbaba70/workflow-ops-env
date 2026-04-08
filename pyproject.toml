@@ -5,7 +5,9 @@ description = "OpenEnv FastAPI app"
 dependencies = [
     "fastapi",
     "uvicorn",
-    "pydantic"
+    "pydantic",
+    "numpy",
+    "gymnasium"
 ]
 
 [build-system]
