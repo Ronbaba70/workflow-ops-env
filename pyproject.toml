@@ -1,15 +1,11 @@
 [project]
-name = "workflow-ops-env"
+name = "openenv-app"
 version = "0.1.0"
-description = "OpenEnv workflow environment"
-authors = [
-    {name = "Ronbaba7"}
-]
+description = "OpenEnv FastAPI app"
 dependencies = [
     "fastapi",
     "uvicorn",
-    "pydantic",
-    "openai"
+    "pydantic"
 ]
 
 [build-system]
