@@ -1,0 +1,11 @@
+name: workflow_ops_env_sota
+version: 2.0
+entrypoint: app.env:WorkFlowOpsEnv
+observation_model: app.models.Observation
+action_model: app.models.Action
+reward_model: app.models.Reward
+max_steps: 12
+tasks:
+  - email
+  - code
+  - data
