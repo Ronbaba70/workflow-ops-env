@@ -1,15 +1,17 @@
 [project]
-name = "openenv-app"
+name = "workflow-ops-env"
 version = "0.1.0"
-description = "OpenEnv FastAPI app"
+requires-python = ">=3.10,<3.13"
+
 dependencies = [
     "fastapi",
     "uvicorn",
     "pydantic",
-    "numpy",
-    "gymnasium",
-    "openenv-core>=0.2.3",
+    "openenv-core>=0.2.0"
 ]
+
+[project.scripts]
+server = "server.app:main"
 
 [build-system]
 requires = ["setuptools", "wheel"]
