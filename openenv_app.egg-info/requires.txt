@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pydantic
+numpy
+gymnasium
+openenv-core>=0.2.3

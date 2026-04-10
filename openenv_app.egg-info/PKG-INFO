@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: openenv-app
+Version: 0.1.0
+Summary: OpenEnv FastAPI app
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: numpy
+Requires-Dist: gymnasium
+Requires-Dist: openenv-core>=0.2.3
