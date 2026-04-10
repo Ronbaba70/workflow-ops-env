@@ -1,3 +1,3 @@
 # WorkFlowOpsEnv v2
-update
+update refresh
 See documentation provided.
